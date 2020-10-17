@@ -6,7 +6,6 @@ import _ from 'lodash';
 process.on('unhandledRejection', () => null);
 
 let client;
-
 let lastTrack = null;
 let lastStart = new Date(0);
 let lastPlayingState = false;
