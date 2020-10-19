@@ -13,15 +13,6 @@ Google Play Music™ Desktop Player
 
 ![](http://samuel.ninja/img/gpmdp_screen.gif)
 
-Run "Google Play Music" as a standalone desktop app.  Never again will you have to hunt through your tabs to pause your music, or stop listening to your favourite song because Chrome is guzzling up all your RAM..
-
-Developed by [Samuel Attard][1].
-
-No affiliation with Google. Google Play is a trademark of Google Inc.
-
-[1]: https://www.samuelattard.com
-
-
 Download
 ---------
 Go to releases
@@ -30,12 +21,13 @@ OS Support
 ------------
 
 * Windows 7 or later
+<del>
 * Mac OS X 10.9.0 or later
 * Ubuntu 14.04 or later
 * Mint
 * Fedora
 * Debian
-
+</del>
 Features
 --------
 
@@ -82,8 +74,8 @@ Credits
 
 Development
 -----------
-
-To get started just pull the repo and run the following
+Most of the building instructions dont work. The macos & linux versions dont build rn, if you want to build probably just get you environment to mach the appveyor.yml as much as possible.
+To get started just ~~pull~~ clone the repo and run the following
 
 ```bash
 npm install
